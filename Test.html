@@ -1,1 +1,100 @@
-Test
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VärVär 2024</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      background-color: #e0e0e0;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    li:hover {
+      background-color: #ff8c00;
+      color: white;
+      transform: scale(1.05);
+    }
+
+    li.active {
+      background-color: #008080;
+      color: white;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>VärVär 2024</h1>
+    <ul>
+      <li>In das Lokal deiner Wahl gemeinsam Essen gehen</li>
+      <li>Gemma zum Paco</li>
+      <li>Gemma El Gaucho</li>
+      <li>Gemma ULRICH</li>
+      <li>Gemma Krazy Kitchen</li>
+      <li>Gemma auf a Kaffee</li>
+      <li>Gemma Badminton spielen</li>
+      <li>Gemma auf a Long Drive</li>
+      <li>Gemma Kebab essen</li>
+      <li>Gemma Schwimmen</li>
+      <li>Gemma Rinderwahn</li>
+      <li>Gemma Brunchen</li>
+      <li>Masaaaaaajeeee</li>
+      <li>In den Lindt Laden gehen</li>
+      <li>Ein Buch deiner Wahl kaufen</li>
+      <li>1x Ikea für dich</li>
+      <li>1x Eiweißdose deiner Wahl</li>
+      <li>Nichts da</li>
+      <li>Kuchen deiner Wahl</li>
+      <li>Hendlsupppn fia di</li>
+      <li>Masaaaaaaajjjjeeeee</li>
+      <li>Nichts da oida</li>
+      <li>1x Veganista</li>
+      <li>Frohe Weihnachten! Vevivär</li>
+    </ul>
+  </div>
+
+  <script>
+    // Add interactive functionality
+    const listItems = document.querySelectorAll('li');
+    
+    listItems.forEach(item => {
+      item.addEventListener('click', () => {
+        item.classList.toggle('active');
+      });
+    });
+  </script>
+  
+</body>
+</html>
